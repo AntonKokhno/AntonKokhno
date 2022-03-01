@@ -7,7 +7,6 @@ public class Task6 {
         Scanner f = new Scanner(System.in);
         System.out.println("Введите число");
         int w = f.nextInt();
-
         int se = w % 10;
         boolean sed = se == 7;
         System.out.println(sed);
